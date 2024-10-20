@@ -61,6 +61,6 @@ celery -A project_name worker -l info
 | `POST` | `/api/favourites/`                | Добавление товара в избранное                               |
 | `DELETE` | `/api/favourites/{favourite_id}/` | Удаление товара из избранного                    |
 | `POST` | `/api/auth/users/`                | Регистрация нового пользователя                             |
-| `POST` | `/api/jwt/create/`                | Получение JWT токена                                        |
-| `POST` | `/api/jwt/refresh/`               | Обновление JWT токена                                       |
+| `POST` | `/api/auth/jwt/create/`                | Получение JWT токена                                        |
+| `POST` | `/api/auth/jwt/refresh/`               | Обновление JWT токена                                       |
 
