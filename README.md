@@ -16,7 +16,7 @@
 # Установка
 Клонируйте репозиторий: 
 ```bash
-git clone https://github.com/username/project-name.git
+git clone https://github.com/johnMacClane07/storeapi.git
 ```
 Создаем виртуальное окруение и активируем его 
 ```bash 
